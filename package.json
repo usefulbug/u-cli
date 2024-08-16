@@ -1,0 +1,30 @@
+{
+  "name": "u-cli-tool",
+  "version": "1.0.0",
+  "description": "A simple CLI tool to create Vue or React projects",
+  "main": "index.js",
+  "bin": {
+    "u-cli": "./bin/u-cli.js"
+  },
+  "files": [
+    "bin/",
+    "index.js",
+    "templates/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usefulbug/u-cli-tool.git"
+  },
+  "keywords": [
+    "vue",
+    "cli",
+    "scaffold"
+  ],
+  "author": "usefulbug <usefulbug@foxmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "execa": "^9.3.1",
+    "inquirer": "^10.1.8"
+  }
+}
