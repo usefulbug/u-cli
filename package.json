@@ -1,5 +1,5 @@
 {
-  "name": "u-cli-tool",
+  "name": "u-cli",
   "version": "1.0.0",
   "description": "A simple CLI tool to create Vue or React projects",
   "main": "index.js",
